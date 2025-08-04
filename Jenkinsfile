@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'windows' }
+    agent { label 'windows-deployer' }
 
     stages {
         stage('Checkout y Validación') {
